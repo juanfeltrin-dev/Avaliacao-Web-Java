@@ -1,0 +1,63 @@
+@charset "ISO-8859-1";
+body{
+	background-color: #eaeaea
+}
+
+#sidebar a {
+  position: fixed;
+  left: -90px;
+  transition: 0.3s;
+  padding: 15px 10px;
+  width: 130px;
+  text-decoration: none;
+  font-size: 20px;
+  color: white;
+  border-radius: 0 5px 5px 0;
+  z-index: 100;
+}
+
+#sidebar a:hover {
+  left: 0;
+}
+
+#entrar {
+  top: 20px;
+  background-color: #4CAF50;
+}
+
+#cadastro {
+  top: 80px;
+  background-color: #2196F3;
+}
+
+#eventos {
+  top: 140px;
+  background-color: #f44336;
+}
+
+#contato {
+  top: 200px;
+  background-color: #555
+}
+
+.card {
+	bottom:0px;
+	box-shadow: 2px 1px 5px rgba(0,0,0,.125);
+}
+
+.card:hover {
+	bottom: 3.5px;
+  	transition: 0.2s;
+}
+
+.evento-body {
+	background-color: #fff;
+	width: 100%;
+}
+
+.toast-fixed {
+	position:fixed;
+	z-index: 9999;
+	right: 0;
+	width:200px;
+}
